@@ -1,12 +1,12 @@
-/* Same colors and fonts as the Web Media Showcase, so the two projects look like a set */
 :root {
-  --cream: #fff8f0;
-  --ink: #4a3728;
-  --brown: #6b4226;
-  --brown-dark: #3b2618;
-  --accent: #a8561b;
-  --sky: #dcecfa;
-  --line: #ead9c6;
+  --cream: #f7f7f5;
+  --ink: #26262a;
+  --brown: #1c1c1e;
+  --brown-dark: #1c1c1e;
+  --accent: #8a5a00;
+  --sky: #ffffff;
+  --line: #d8d8d2;
+  --alt: #ecece7;
   --serif: "Lora", Georgia, serif;
   --sans: "Montserrat", system-ui, sans-serif;
 }
