@@ -1,12 +1,12 @@
 :root {
-  --cream: #f7f7f5;
-  --ink: #26262a;
-  --brown: #1c1c1e;
-  --brown-dark: #1c1c1e;
-  --accent: #8a5a00;
-  --sky: #ffffff;
-  --line: #d8d8d2;
-  --alt: #ecece7;
+  --page: #f3f6f9;      
+  --ink: #1f2d3d;       
+  --heading: #12304d;   
+  --header: #0f2a43;    
+  --accent: #0b6f82;   
+  --panel: #ffffff;     
+  --alt: #e6edf4;       
+  --line: #d3dde7;      
   --serif: "Lora", Georgia, serif;
   --sans: "Montserrat", system-ui, sans-serif;
 }
