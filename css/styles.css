@@ -1,12 +1,12 @@
 :root {
-  --page: #f3f6f9;      /* page background */
-  --ink: #1f2d3d;       /* body text */
-  --heading: #12304d;   /* headings */
-  --header: #0f2a43;    /* header and footer background */
-  --accent: #0b6f82;    /* links */
-  --panel: #ffffff;     /* chart panel */
-  --alt: #e6edf4;       /* alternating section background */
-  --line: #d3dde7;      /* borders */
+  --page: #f3f6f9;      
+  --ink: #1f2d3d;       
+  --heading: #12304d;   
+  --header: #0f2a43;    
+  --accent: #0b6f82;    
+  --panel: #ffffff;    
+  --alt: #e6edf4;       
+  --line: #d3dde7;      
   --serif: "Lora", Georgia, serif;
   --sans: "Montserrat", system-ui, sans-serif;
 }
