@@ -1,0 +1,55 @@
+/* Same colors and fonts as the Web Media Showcase, so the two projects look like a set */
+:root {
+  --cream: #fff8f0;
+  --ink: #4a3728;
+  --brown: #6b4226;
+  --brown-dark: #3b2618;
+  --accent: #a8561b;
+  --sky: #dcecfa;
+  --line: #ead9c6;
+  --serif: "Lora", Georgia, serif;
+  --sans: "Montserrat", system-ui, sans-serif;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: var(--sans);
+  line-height: 1.7;
+}
+
+h1, h2, h3 { font-family: var(--serif); color: var(--brown); }
+a { color: var(--accent); }
+a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* Header and headline numbers */
+.hero {
+  background: var(--brown-dark);
+  color: #f3e7d8;
+  padding: 4rem 0 3rem;
+}
+.hero h1 { color: #fff; font-size: clamp(2.25rem, 6vw, 3.5rem); }
+.hero .lead { max-width: 40rem; }
+.hero a { color: #f3c9a0; }
+
+.stats { margin-top: 2rem; }
+.stat-value { font-family: var(--serif); font-size: 2rem; font-weight: 700; color: #fff; line-height: 1.1; }
+.stat-label { font-size: 0.85rem; color: #e8d9c8; }
+
+/* Sections */
+section { padding: 3.5rem 0; border-top: 1px solid var(--line); }
+.intro { max-width: 42rem; margin-bottom: 1.5rem; }
+.built-with { margin: 1.5rem 0 0; font-size: 0.9rem; color: var(--brown); }
+
+/* Chart */
+.panel { background: var(--sky); border-radius: 0.75rem; padding: 1.25rem; }
+.chart-box { position: relative; height: 320px; }
+
+/* Tables: scroll sideways on small screens */
+.table-wrap { overflow-x: auto; }
+.table { --bs-table-bg: transparent; color: var(--ink); font-size: 0.9rem; }
+.table th { color: var(--brown); white-space: nowrap; }
+
+/* Footer */
+footer { background: var(--brown-dark); color: #e8d9c8; }
+footer a { color: #f3c9a0; }
