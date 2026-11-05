@@ -1,4 +1,3 @@
--- Two tables: one row per meet, one row per result.
 DROP TABLE IF EXISTS results;
 DROP TABLE IF EXISTS meets;
 
