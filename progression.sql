@@ -1,5 +1,4 @@
--- Every meet in date order. LAG() looks at the previous row,
--- so total_change_kg is this meet's total minus the last meet's total.
+
 SELECT
   m.date,
   m.meet_name,
